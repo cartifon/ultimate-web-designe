@@ -333,7 +333,7 @@ label {
   padding: 2%;
   color: white;
   border: solid 1px #000;
-  border-bottom: none;;
+  border-bottom: none;
 }
 
 input[type="submit"] {
@@ -354,3 +354,58 @@ input[type="submit"]:active {
   border-color: #111;
   outline-color: red;
 }
+
+/* Working with possitions */
+
+
+#positioning {
+  background: #1b4e5e;
+}
+
+#positioning #container {
+  background: white;
+  padding: 20px;
+  height: 1800px;
+}
+
+#positioning h2 {
+  font-size: 18px;
+}
+
+.box {
+  background: #db4e3e;
+  color: #fff;
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  line-height: 200px;
+  text-transform: uppercase;
+  font-family: Helvetica, Aria, sans-serif;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#relative {
+  position: relative;
+  top: -10px;
+  left: -50px;
+}
+
+#absolute {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+#fixed {
+  position: fixed;
+}
+
+
+
+
+
+
+
+
+
