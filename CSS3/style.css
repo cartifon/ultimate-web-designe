@@ -52,10 +52,15 @@ body#colors {
   text-shadow: 1px 2px blue, 2px 1px 4px red;
 }
 
+/* Columns */
 
-
-
-
+#three-columns {
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-width: 1px;
+  column-rule-color: #ccc; 
+}
 
 
 
